@@ -3,8 +3,8 @@ import saas from '../assets/saas.svg'
 
 const Hero = () => {
   return (
-    <section className='py-15 px-25'>
-      <div className='max-w-7xl mx-auto px-5'>
+    <section className='pt-20 pb-16 lg:min-h-screen'>
+      <div className='max-w-7xl mx-auto px-5 sm:px-6 lg:px-8'>
         <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-20'>
 
           {/* Left Part */}
@@ -29,10 +29,9 @@ const Hero = () => {
                 View Pricing
               </button>
             </div>
-          </div>
-
-          
+          </div>    
         </div>
+        
       </div>
     </section>
   )

@@ -15,9 +15,9 @@ const Navbar = () => {
         'Contact'
     ]
   return (
-    <section className='backdrop-blur-sm min-h-auto flex px-20 py-9 justify-between items-center'>
+    <section className='backdrop-blur-sm min-h-auto flex px-15 py-9 md:px-25 md:py-9 justify-between items-center'>
         
-        <div className='text-3xl flex items-center justify-center gap-1'>
+        <div className='text-xl md:text-3xl flex items-center justify-center gap-1 '>
             <AiFillBug className='w-[25px] h-[25px] rotate-25'/>
             <span className='text-black font-bold'>Servora</span>
         </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
         
         {/* Mobile Nav */}
-        <div className='lg:hidden'>
+        <div className='md:hidden flex justify-center items-center'>
             <button onClick={()=> setIsOpen(!isOpen)}>
                 {isOpen ? <HiOutlineX size={28} /> : <HiOutlineMenu size={28}/>}
             </button>
