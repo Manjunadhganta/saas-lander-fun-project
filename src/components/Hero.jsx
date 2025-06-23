@@ -3,7 +3,7 @@ import saas from '../assets/saas.svg'
 
 const Hero = () => {
   return (
-    <section className='pt-20 pb-16 lg:min-h-screen'>
+    <section id='home' className='pt-24 pb-16 lg:min-h-screen flex items-center'>
       <div className='max-w-7xl mx-auto px-5 sm:px-6 lg:px-8'>
         <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-20'>
 

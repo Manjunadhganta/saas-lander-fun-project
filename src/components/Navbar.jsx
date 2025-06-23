@@ -11,11 +11,10 @@ const Navbar = () => {
         'Home',
         'Features',
         'Pricing',
-        'Testimonials',
         'Contact'
     ]
   return (
-    <section className='backdrop-blur-sm min-h-auto flex px-15 py-9 md:px-25 md:py-9 justify-between items-center'>
+    <section className='fixed top-0 left-0 w-full z-50 pt-5 backdrop-blur-sm min-h-auto flex px-15 py-9 md:px-25 md:py-9 justify-between items-center'>
         
         <div className='text-xl md:text-3xl flex items-center justify-center gap-1 '>
             <AiFillBug className='w-[25px] h-[25px] rotate-25'/>
